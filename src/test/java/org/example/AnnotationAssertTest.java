@@ -24,6 +24,7 @@ public class AnnotationAssertTest {
         System.out.println("The Webpage is opened");
     }
     @Test(priority = 1)
+    //searching items
     public void searchItem() {
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("macbook laptop", Keys.ENTER);
         System.out.println("The item is searched");
